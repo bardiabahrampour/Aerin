@@ -1,0 +1,26 @@
+                                                                                              
+================================================================================================
+               AAA                                                     iiii                    =
+              A:::A                                                   i::::i                   =
+             A:::::A                                                   iiii                    =
+            A:::::::A                                                                          =
+           A:::::::::A            eeeeeeeeeeee    rrrrr   rrrrrrrrr  iiiiiiinnnn  nnnnnnnn     =
+          A:::::A:::::A         ee::::::::::::ee  r::::rrr:::::::::r i:::::in:::nn::::::::nn   =
+         A:::::A A:::::A       e::::::eeeee:::::eer:::::::::::::::::r i::::in::::::::::::::nn  =
+        A:::::A   A:::::A     e::::::e     e:::::err::::::rrrrr::::::ri::::inn:::::::::::::::n =
+       A:::::A     A:::::A    e:::::::eeeee::::::e r:::::r     r:::::ri::::i  n:::::nnnn:::::n =
+      A:::::AAAAAAAAA:::::A   e:::::::::::::::::e  r:::::r     rrrrrrri::::i  n::::n    n::::n =
+     A:::::::::::::::::::::A  e::::::eeeeeeeeeee   r:::::r            i::::i  n::::n    n::::n =
+    A:::::AAAAAAAAAAAAA:::::A e:::::::e            r:::::r            i::::i  n::::n    n::::n =
+   A:::::A             A:::::Ae::::::::e           r:::::r           i::::::i n::::n    n::::n =
+  A:::::A               A:::::Ae::::::::eeeeeeee   r:::::r           i::::::i n::::n    n::::n =
+ A:::::A                 A:::::Aee:::::::::::::e   r:::::r           i::::::i n::::n    n::::n =
+AAAAAAA                   AAAAAAA eeeeeeeeeeeeee   rrrrrrr           iiiiiiii nnnnnn    nnnnnn =
+================================================================================================
+
+Aerin is a linux focused but multiplatfrom(eventually) TV UI frontend.
+
+
+TECH DETAILS:
+right now there is a draw command with direct to raytlib draw commands but i will have
+to make a render abstract layer that will make it completely renderer independent.
