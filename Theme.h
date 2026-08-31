@@ -10,5 +10,9 @@ struct Theme {
     Color Error;
     Color Warning;
     Color Info;
+    Color BackgroundFirst;
+    Color BackgroundSecond;
     Font  MainFont;
 };
+
+Color ConvertHexToRGBA(const char* hex);
