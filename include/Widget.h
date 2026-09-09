@@ -1,5 +1,5 @@
 #pragma once
-
+#include <raylib.h>
 /*
     Widget:
     universal class for bascially everything that appears on screen.
@@ -18,4 +18,8 @@ protected:
 
     WidgetState state = WidgetState::STATE_NEUTRAL;
     int posx=0,posy=0;
+    int sizex = 0, sizey = 0;
+    Color Background_Color;
+    Color Foreground_Color;
+    
 };
