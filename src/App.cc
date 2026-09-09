@@ -7,8 +7,8 @@
 App::App() : width{0} , height{0}{
 //  just for prototyping
 //  will change definetelyl
-    main_theme.BackgroundFirst = ConvertHexToRGBA("#31572c");
-    main_theme.BackgroundSecond = ConvertHexToRGBA("#90a955");
+    main_theme.BackgroundSecond = ConvertHexToRGBA("#31572c");
+    main_theme.BackgroundFirst = ConvertHexToRGBA("#90a955");
 }
 
 App::~App() {
