@@ -12,6 +12,7 @@ struct App {
 private:
     Theme main_theme;
     int width,height;
+    int resolution_coefficent = 1;
     Texture2D background_texture;
     void GenerateBackground();
 };

@@ -23,6 +23,7 @@ void App::Init() {
                "Aerin");
     width = GetScreenWidth();
     height = GetScreenHeight();
+    resolution_coefficent = 1920/GetScreenWidth();
 
     GenerateBackground();
 
