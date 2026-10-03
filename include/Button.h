@@ -8,6 +8,11 @@
 #define BUTTON_RECT_X 200
 #define BUTTON_RECT_Y 100
 
+/*
+    NOT IMPLEMENTED YET!!
+    will change MakeButton() to seperate
+    fucntions based of states
+*/
 enum class ButtonState {
     BUTTON_IDLE,
     BUTTON_HOVERED,
@@ -23,7 +28,7 @@ struct Button : public Widget {
     void MakeButton();
     void Draw() override;
     void Update() override;
-    std::vector<Sprite> render[3];
+    std::vector<Sprite> render;
 private:
     std::string name;
     ButtonState state = ButtonState::BUTTON_IDLE;

@@ -16,6 +16,9 @@ void Button::MakeButton() {
     Sprite background;
     Sprite text;
     Sprite overlay;
+    render.push_back(background);
+    render.push_back(text);
+    render.push_back(overlay);
 }
 
 void Button::Draw(){
