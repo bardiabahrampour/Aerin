@@ -2,6 +2,7 @@
 #include <raylib.h>
 #include "Button.h"
 #include "Theme.h"
+#include "Graphics.h"
 
 struct App {
     App();
@@ -13,6 +14,8 @@ private:
     Theme main_theme;
     int width,height;
     int resolution_coefficent = 1;
-    Texture2D background_texture;
+    Aerin::Texture background_texture;
     void GenerateBackground();
+    std::vector<Sprite> graphics_data;
+    std::vector<Button> buttons;
 };

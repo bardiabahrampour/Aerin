@@ -26,7 +26,7 @@ struct Button : public Widget {
     Button();
     Button(int sizex, int sizey , int posx, int posy);
     void MakeButton();
-    void Draw() override;
+    std::vector<Sprite> Draw();
     void Update() override;
     std::vector<Sprite> render;
 private:

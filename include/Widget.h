@@ -1,12 +1,15 @@
 #pragma once
 #include <raylib.h>
+#include <Sprite.h>
+#include <vector>
+
 /*
     Widget:
     universal class for bascially everything that appears on screen.
 */
 
 struct Widget {
-    virtual void Draw();
+    virtual void Draw(std::vector<Sprite> &graphics_data);
     virtual void Update();
     virtual ~Widget() = default;
 protected:

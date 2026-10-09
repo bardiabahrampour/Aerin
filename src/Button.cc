@@ -21,8 +21,8 @@ void Button::MakeButton() {
     render.push_back(overlay);
 }
 
-void Button::Draw(){
-
+std::vector<Sprite> Button::Draw(){
+    return render;
 }
 
 void Button::Update(){

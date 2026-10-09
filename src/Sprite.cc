@@ -19,3 +19,18 @@ Sprite::Sprite(Texture2D texture,int posx=0,int posy=0,Color tint=WHITE) {
     this->tint      = tint;
 }
 
+Texture Sprite::GetTexture() {
+    return this->texture;
+}
+
+Color Sprite::GetTint() {
+    return this->tint;
+}
+
+int Sprite::GetPosx() {
+    return this->posx;
+}
+
+int Sprite::GetPosy() {
+    return this->posy;
+}

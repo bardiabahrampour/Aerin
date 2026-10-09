@@ -9,4 +9,8 @@ class Sprite {
     Sprite();
     Sprite(const char* src,int posx,int posy,Color tint);
     Sprite(Texture2D texture,int posx,int posy,Color tint);
+    Texture GetTexture();
+    Color   GetTint();
+    int     GetPosx();
+    int     GetPosy();
 };

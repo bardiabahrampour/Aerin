@@ -1,5 +1,5 @@
 CXX = g++
-TARGET = app
+TARGET = Aerin
 
 SRC_DIR = src
 BUILD_DIR = build

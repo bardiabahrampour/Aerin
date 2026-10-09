@@ -1,6 +1,6 @@
 #include "Widget.h"
 
-void Widget::Draw() {
+void Widget::Draw(std::vector<Sprite> &graphics_data) {
 
 }
 
